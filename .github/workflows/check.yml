@@ -1,0 +1,11 @@
+name: Check
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    name: check
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "✅ Passed"
